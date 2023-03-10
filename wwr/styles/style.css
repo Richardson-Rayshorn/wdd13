@@ -252,6 +252,27 @@ nav a:hover{
     font-size: 2em;
 }
 
+.contact-hero #hero-msg{
+    padding: 2em;
+    margin: 0;
+    background-image: url("../images/firdouss-ross-THsw2pd2gX0-unsplash\ \(1\).jpg");
+
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
