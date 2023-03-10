@@ -259,6 +259,17 @@ nav a:hover{
 
 }
 
+#contact-form{
+    border: 0.5px solid;
+    width: 40%;
+    margin: 10px auto;
+}
+
+#contact-form input{
+    padding: 10px;
+    margin: 8px;
+}
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
