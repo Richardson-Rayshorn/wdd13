@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="autismsite.css">
     <title>Autism Website</title>
 </head>
-<body>
+<body class="resourcePageBody">
     <header>
         <nav>
             <div>
@@ -25,7 +25,7 @@
     </header>
     <div class="content">
         <div class="bodyGray">
-            <section id="jumbotronResource">
+            <section id="jumbotronResource" class="container">
                 <div>
                     <p>Learn More</p>
                     <h1>Resources by Topics</h1>
@@ -47,7 +47,8 @@
                             when you need it by accessing our resources below.</p>
                         <form action="" method="" id="retoInbox">
                             <div>
-                                <input type="text" name="Email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                                <input type="text" name="Email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                                placeholder="Email Address" required>
                             </div>
                             <div>
                                 <input type="submit" value="See More">
@@ -62,30 +63,32 @@
         </div>
     </div>
     <div class="divider"></div>
-    <div class="footerCentral">
-        <div>
-            <h3>Connect to Community</h3>
-            <p>There are many ways to get involved in the Autism community. 
-                Whether it’s supporting a crucial initiative, attending an event, 
-                becoming an Autism Society member, or making a donation, the Autism 
-                Society is your connection to making a difference.</p>
-        </div>
-        <div class="footerGridItems">
-            <div class="itemOdds">
-                <h4>Take Action</h4>
-                <a href="">Advocacy Impact</a>
+    <div class="footerCentralBackground">
+        <div class="footerCentral">
+            <div>
+                <h3>Connect to Community</h3>
+                <p>There are many ways to get involved in the Autism community. 
+                    Whether it’s supporting a crucial initiative, attending an event, 
+                    becoming an Autism Society member, or making a donation, the Autism 
+                    Society is your connection to making a difference.</p>
             </div>
-            <div class="itemEvens">
-                <h4>Make a Donation</h4>
-                <a href="">Donate Now</a>
-            </div>
-            <div class="itemEvens">
-                <h4>Become a Member</h4>
-                <a href="">Join Us</a>
-            </div>
-            <div class="itemOdds">
-                <h4>Attend an Event</h4>
-                <a href="">Check Now</a>
+            <div class="footerGridItems">
+                <div class="itemOdds">
+                    <h4>Take Action</h4>
+                    <a href="">Advocacy Impact</a>
+                </div>
+                <div class="itemEvens">
+                    <h4>Make a Donation</h4>
+                    <a href="">Donate Now</a>
+                </div>
+                <div class="itemEvens">
+                    <h4>Become a Member</h4>
+                    <a href="">Join Us</a>
+                </div>
+                <div class="itemOdds">
+                    <h4>Attend an Event</h4>
+                    <a href="">Check Now</a>
+                </div>
             </div>
         </div>
     </div>
